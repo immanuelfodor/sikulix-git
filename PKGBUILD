@@ -6,7 +6,7 @@ pkgdesc="Automates GUI tasks using image recognition"
 arch=("x86_64" "i686") # contains binary blobs
 url="http://www.sikulix.com/"
 license=("MIT")
-depends=("java-environment-jdk>=7"
+depends=("jdk7-openjdk"
          "opencv2"
          "tesseract>=3.0.2"
          "wmctrl"
