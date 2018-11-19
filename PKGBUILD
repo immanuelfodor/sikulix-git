@@ -6,8 +6,8 @@ pkgdesc="Automates GUI tasks using image recognition"
 arch=("x86_64" "i686") # contains binary blobs
 url="http://www.sikulix.com/"
 license=("MIT")
-depends=("jdk7-openjdk"
-         "opencv2"
+depends=("jdk10-openjdk"
+         "opencv"
          "tesseract>=3.0.2"
          "wmctrl"
          "lsb-release"
@@ -15,7 +15,7 @@ depends=("jdk7-openjdk"
 makedepends=("git" "maven>=3")
 provides=("sikulix")
 conflicts=("sikulix")
-source=("${pkgname}::git+https://github.com/RaiMan/SikuliX-2014.git"
+source=("${pkgname}::git+https://github.com/RaiMan/Sikuli1.git"
         "LICENSE" # http://www.sikulix.com/disclaimer.html
         "sikulix.desktop"
         "sikulix"
